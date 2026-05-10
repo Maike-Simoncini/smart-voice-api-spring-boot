@@ -1,0 +1,63 @@
+# --- Java & Maven ---
+target/
+!.mvn/wrapper/maven-wrapper.jar
+/target/
+*.class
+*.log
+*.ctxt
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# --- Help & Logs ---
+.help.md
+.logs/
+*.log
+/stacktrace.log
+
+# --- IDE Specific (IntelliJ, Eclipse, VS Code) ---
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.settings/
+.classpath
+.project
+.metadata/
+.recommenders/
+.factorypath
+.vscode/
+bin/
+*.code-workspace
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Security & Credentials (VITAL) ---
+# Jamais suba arquivos que contenham suas chaves da OpenAI/Gemini/Google
+.env
+.env.local
+.env.*.local
+application-local.properties
+/src/main/resources/application-dev.properties
+
+# --- Docker ---
+.docker/
+# Se você usa volumes locais para persistência de dados do banco
+/data/
+/pgdata/
+
+# --- Spring Boot & System ---
+/HELP.md
+.mvn/
+/mvnw
+/mvnw.cmd
+.apt_generated/
+.factorypath
+.springBeans

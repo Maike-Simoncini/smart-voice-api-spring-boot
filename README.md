@@ -1,4 +1,9 @@
 # 🤖 Smart-voice-api-spring-boot
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen?style=for-the-badge)
 > **Desafio de Projeto:** API desenvolvida como parte do currículo da [DIO](https://www.dio.me/), focada em demonstrar a integração de IA Generativa e Multimodalidade no ecossistema Java.
 Esta é uma **API Inteligente** construída com **Spring Boot** e **Spring AI**. A aplicação atua como um assistente financeiro capaz de processar comandos de voz, convertê-los em texto, interpretar a intenção do utilizador via LLMs e executar ações programáticas, como a persistência de transações em base de dados.
 ## 🚀 Funcionalidades
@@ -7,13 +12,6 @@ Esta é uma **API Inteligente** construída com **Spring Boot** e **Spring AI**.
 * **Tool Calling (Function Calling):** Capacidade da IA de invocar métodos Java reais para registar despesas ou consultar orçamentos.
 * **Contexto e Fluência:** Gestão de histórico para manter conversas coerentes.
 * **Infraestrutura com Docker:** Ambiente de persistência PostgreSQL pronto a usar via Docker Compose.
-## 🛠️ Tecnologias Utilizadas
-* **Java 21**
-* **Spring Boot 3.x**
-* **Spring AI**
-* **Docker & Docker Compose**
-* **Spring Data JPA**
-* **PostgreSQL**
 ## 🏗️ Arquitetura do Fluxo
 1.  **Transcrição:** Receção de áudio via REST e conversão para texto (`Transcription API`).
 2.  **Raciocínio:** O `ChatClient` interpreta o comando (ex: "Gastei 50 reais com combustível").
